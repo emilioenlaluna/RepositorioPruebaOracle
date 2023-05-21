@@ -1,7 +1,7 @@
 Inicialiar repositorio
 git init
 
-Track Monitorear archivos
+Track Monitorear archivos rastrear
 git add .
 git add index.html
 
@@ -19,3 +19,41 @@ git config --global user.name "XXX"
 
 git config --global user.email "xxx@xxx.xxx"
 
+
+HEAD: Estado actual de nuestro código, es decir, donde nos colocó Git
+Working tree: Lugar donde los archivos realmente están siendo almacenados
+index: Lugar donde Git almacena lo que será commiteado, es decir, la ubicación entre el working tree y el repositorio de Git en sí.
+
+
+
+git status -s
+
+
+Ignorar Archivos
+
+# ignora los archivos terminados en .a
+*.a
+
+# pero no lib.a, aun cuando había ignorado los archivos terminados en .a en la línea anterior
+!lib.a
+
+# ignora unicamente el archivo TODO de la raiz, no subdir/TODO
+/TODO
+
+# ignora todos los archivos del directorio build/
+build/
+
+# ignora doc/notes.txt, pero no este: doc/server/arch.txt
+doc/*.txt
+
+# ignora todos los archivos .txt del directorio doc/
+doc/**/*.txt
+
+git diff
+
+ git diff --staged
+
+
+  git diff --cached para ver que has preparado hasta ahora (--staged y --cached son sinónimos):
+
+Eliminar archivo  git rm PROJECTS.md
