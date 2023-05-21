@@ -1,0 +1,11 @@
+Inicialiar repositorio
+git init
+
+Track Monitorear archivos
+git add .
+git add index.html
+
+Desmonitorear archvis
+
+git rm --cache index.html
+
