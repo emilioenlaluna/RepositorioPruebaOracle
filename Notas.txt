@@ -18,6 +18,7 @@ git commit -m "Cambios XXX"
 git config --global user.name "XXX"
 
 git config --global user.email "xxx@xxx.xxx"
+--local
 
 
 HEAD: Estado actual de nuestro código, es decir, donde nos colocó Git
@@ -57,3 +58,40 @@ git diff
   git diff --cached para ver que has preparado hasta ahora (--staged y --cached son sinónimos):
 
 Eliminar archivo  git rm PROJECTS.md
+
+
+git log
+git log --oneline
+git log -p
+git log -p --max-count=2
+
+-n, --max-count=2
+    --skip=2
+    --since="1 week ago"
+    --until="yesterday"
+    --author="Rico"
+    --committer="Rico"
+
+
+    git log master             # branch
+git log origin/master      # branch, remote
+git log v1.0.0             # tag
+
+
+Ordering
+    --date-order
+    --author-date-order
+    --topo-order              # "smart" ordering
+    --reverse
+
+
+Pretty
+
+  --pretty="format:%H"
+
+  $ git log   --pretty="format:%H %s"
+  
+$ git log   --pretty="format:%H %s %ae"
+
+https://devhints.io/git-log
+
