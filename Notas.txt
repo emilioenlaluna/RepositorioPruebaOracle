@@ -148,3 +148,7 @@ git remote rename local servidorlocal
 git pull servidorlocal master
 
 
+// Obtener los cambios 
+
+
+git pull servidorlocal master
