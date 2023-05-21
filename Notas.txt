@@ -95,3 +95,37 @@ $ git log   --pretty="format:%H %s %ae"
 
 https://devhints.io/git-log
 
+
+
+
+git init --bare
+
+
+listar los servidores remotos
+
+
+git remote
+
+
+ git remote add servidorlocal  C:/Users/emili/Documents/remotogitalura/
+
+git remote add nombre-repositorio camino/del/repositorio
+
+
+emili@LAPTOP-Q6LOO1V1 MINGW64 ~/Documents/OracleOneGitGitHub (master)
+$ git remote
+servidorlocal
+
+
+$ git remote -v
+servidorlocal   C:/Users/emili/Documents/remotogitalura/ (fetch)
+servidorlocal   C:/Users/emili/Documents/remotogitalura/ (push)
+
+
+
+$ git clone /c/Users/emili/Documents/remotogitalura/
+$ git clone /c/Users/emili/Documents/remotogitalura/ proyecto
+
+
+
+
