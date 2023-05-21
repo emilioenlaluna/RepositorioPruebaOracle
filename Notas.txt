@@ -9,3 +9,13 @@ Desmonitorear archvis
 
 git rm --cache index.html
 
+Hacer un commit
+
+git commit -m "Cambios XXX"
+
+--Configurar usuario
+
+git config --global user.name "XXX"
+
+git config --global user.email "xxx@xxx.xxx"
+
