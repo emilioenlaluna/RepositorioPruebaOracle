@@ -128,4 +128,23 @@ $ git clone /c/Users/emili/Documents/remotogitalura/ proyecto
 
 
 
+agregar los cambios al servidor 
+
+ git push servidorlocal master
+ git push <remote> <rama/branch>
+
+
+//origin es el nombre que le da git cuando copias un repositorio
+
+renombrar un origin remote
+
+git remote rename origin local
+git remote rename local servidorlocal
+
+
+//////////////////
+ extreaer datos del serivore local
+
+git pull servidorlocal master
+
 
