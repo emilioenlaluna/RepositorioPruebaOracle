@@ -152,3 +152,9 @@ git pull servidorlocal master
 
 
 git pull servidorlocal master
+
+
+//Agregar remote de github
+
+git remote add origin https://github.com/emilioenlaluna/RepositorioPruebaOracle.git
+git remote add github 
