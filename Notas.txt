@@ -169,7 +169,7 @@ Crear una nueva rama
 git branch titulo
 
 cambiar de rama
-git checkout
+git checkout titulo
 
 crear rama y cambiar al mismo tiempo
 
