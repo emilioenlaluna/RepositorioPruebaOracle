@@ -170,3 +170,7 @@ git branch titulo
 
 cambiar de rama
 git checkout
+
+crear rama y cambiar al mismo tiempo
+
+git checkout -b lista
