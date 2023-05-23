@@ -162,3 +162,11 @@ git remote add github
 git push oringin master
 git push -u origin master
 -u significa que siempre va  a hacer a origin
+
+
+Crear una nueva rama
+
+git branch titulo
+
+cambiar de rama
+git checkout
