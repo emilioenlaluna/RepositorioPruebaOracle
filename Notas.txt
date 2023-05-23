@@ -174,3 +174,5 @@ git checkout titulo
 crear rama y cambiar al mismo tiempo
 
 git checkout -b lista
+
+
