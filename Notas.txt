@@ -179,3 +179,9 @@ git checkout -b lista
 ver cambios con git log como grafo
 
 git log --graph
+
+
+agregar los cambios a un rama deben estar commited
+git rebase rama
+
+git rebase master
