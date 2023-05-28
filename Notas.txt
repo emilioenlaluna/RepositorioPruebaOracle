@@ -176,3 +176,6 @@ crear rama y cambiar al mismo tiempo
 git checkout -b lista
 
 
+ver cambios con git log como grafo
+
+git log --graph
