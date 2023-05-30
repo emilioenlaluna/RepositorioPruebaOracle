@@ -1,0 +1,46 @@
+deshacer los cambios que aun no han sido puestos son git add 
+
+git restores index.html
+
+quitar los cambios que ya habiamos puesto con git aadd
+git restore --stagged index.html
+
+deshacer un commit
+
+git revert hash
+
+git revert fjifjsiofjspfkdsofkdsof575f7s4f5sd4f5ds
+
+se creara un commit deshaciendo los cambios
+
+
+git restore
+
+2 - git restore --staged
+
+3 - git revert
+
+
+¡Opción correcta! Con el git restore deshacemos una modificación que aún no fue agregada al index o stage, o sea, antes de hacer git add. Después de agregar con git add, para deshacer una modificación, necesitamos sacarlo de este estado, con git restore --staged. Ahora, si ya hicimos el commit, el comando git revert puede salvarnos.
+
+
+¡Opción correcta! Con el git restore deshacemos una modificación que aún no fue agregada al index o stage, o sea, antes de hacer git add. Después de agreg
+
+
+
+git status
+
+git stash
+
+--hacer commit con cambios
+
+git stash list
+
+git stash apply 0
+git stash drop 0
+
+git stash pop
+
+---hacer commit
+
+/////////////////////////////
